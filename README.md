@@ -1,1 +1,4 @@
-# Object-Detection-in-Aerial-Images
+# 無人機飛行載具之智慧計數競賽 (TEAM_2054)
+
+
+## 
