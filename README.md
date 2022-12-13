@@ -58,11 +58,9 @@ $ pip install -r requirements.txt
 
 ```bash
 Object-Detection-in-Aerial-Images/
-  ├── data/
-      └── 0/    # orchid_public_set, 40285
-      └── 1/    # orchid_private_set, 41425
-  ├── datasets/
-      └── private/
+    ├── best.pt
+    ├── datasets/
+        └── private/
 ```
 
 </details>
@@ -75,19 +73,10 @@ Object-Detection-in-Aerial-Images/
 <summary>Inference</summary>
 
 ```bash
-$ python detect_csv.py --weights runs/train/exp/weights/best.pt --source ../yolov7/datasets/test --conf-thres 0.3 --iou-thres 0.3 --save-txt --imgsz 2912
+$ python detect_csv.py --weights best.pt --source datasets/test --conf-thres 0.3 --iou-thres 0.3 --save-txt --imgsz 2912
 ```
 
 </details>
-
-
-
-  
-  
-  
-
-  
-  
 
 
 
@@ -99,7 +88,7 @@ $ python detect_csv.py --weights runs/train/exp/weights/best.pt --source ../yolo
 
 
 
-## Citation
+## Information
 ```
 @article{
     title  = {Object Detection in Aerial Images},
