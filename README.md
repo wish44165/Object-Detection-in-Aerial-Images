@@ -52,38 +52,21 @@ $ pip install -r requirements.txt
 
 
 
-
-
-
-
 <details>
  
   <summary>Folder Structure</summary>
 
 ```bash
 Object-Detection-in-Aerial-Images/
-  ├── test/
+  ├── data/
       └── 0/    # orchid_public_set, 40285
       └── 1/    # orchid_private_set, 41425
-  ├── ViT-Orchids-Classification-main/
-      └── apex/
-      └── checkpoint/
-      └── compare.py
-      └── convert.py
-      └── models/
-      └── output/
-          └── A1.bin, A2.bin, ID_4.bin, ID_5.bin, ID12.bin, ID27.bin    # ViT-B_16
-      └── utils/
-      └── requirements.txt
-      └── test.py/
-      └── train.py/
-      └── submit.py/
+  ├── datasets/
+      └── private/
 ```
 
 </details>
 
-  
-  
 
 
   
@@ -112,14 +95,8 @@ $ python detect_csv.py --weights runs/train/exp/weights/best.pt --source ../yolo
 ## 3. GitHub Acknowledgement
 - [YOLOv5](https://github.com/ultralytics/yolov5)
 - [Data Augmentation For Object Detection](https://github.com/Paperspace/DataAugmentationForObjectDetection)
-  
-
-  
 
 
-
-## 4. Reference
-- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
 
 ## Citation
