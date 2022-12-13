@@ -54,7 +54,9 @@ $ pip install -r requirements.txt
 
 <details>
  
-  <summary>Folder Structure</summary>
+<summary>Folder Structure</summary>
+
+- [best.pt](https://drive.google.com/file/d/1Kn6FOV-Ho06Lz8ROc2nowd88Xkc6Gxnp/view?usp=sharing)
 
 ```bash
 Object-Detection-in-Aerial-Images/
