@@ -35,7 +35,7 @@ $ conda activate uav_yolov5
 <summary>Clone Repository</summary>
   
 ```bash
-$ git clone https://github.com/ultralytics/yolov5
+$ git clone https://github.com/TW-yuhsi/Object-Detection-in-Aerial-Images
 $ cd yolov5/
 $ pip install -r requirements.txt
 ```
