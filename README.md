@@ -363,9 +363,9 @@ python test.py --model_type ViT-B_16 \
 ## Citation
 ```
 @article{
-    title  = {Crop classification},
+    title  = {Object Detection in Aerial Images},
     author = {Yu-Hsi Chen},
-    url    = {https://github.com/TW-yuhsi/ViT-Orchids-Classification},
+    url    = {https://github.com/TW-yuhsi/Object-Detection-in-Aerial-Images},
     year   = {2022}
 }
 ```
