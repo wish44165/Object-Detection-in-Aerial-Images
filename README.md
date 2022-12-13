@@ -60,7 +60,7 @@ $ pip install -r requirements.txt
 Object-Detection-in-Aerial-Images/
     ├── best.pt
     ├── datasets/
-        └── private/
+        └── private/    # img1501.png, img1502.png, img1503.png, ...
 ```
 
 </details>
@@ -73,7 +73,7 @@ Object-Detection-in-Aerial-Images/
 <summary>Inference</summary>
 
 ```bash
-$ python detect_csv.py --weights best.pt --source datasets/test --conf-thres 0.3 --iou-thres 0.3 --save-txt --imgsz 2912
+$ python detect_csv.py --weights best.pt --source datasets/private --conf-thres 0.3 --iou-thres 0.3 --save-txt --imgsz 2912
 ```
 
 </details>
