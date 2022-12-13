@@ -134,59 +134,7 @@ $ python detect_csv.py --weights runs/train/exp/weights/best.pt --source ../yolo
   
   
   
-<details>
-  
-<summary>Inference demo</summary>
-
-```
-python test.py --model_type ViT-B_16 \
-               --checkpoint output/orchid_ViT-B_16_checkpoint.bin \
-               --img_size 480 \
-               --test_dir ../data \
-               --foldn 1 \
-               --dataset test \
-               --use_imagenet_mean_std \
-               --use_test_aug
-```
-  
-</details>
-
-  
-  
-  
-  
-## 3. Reproduce the Best Result (public: 0.911492, private: 0.809624582)
-  
-<details>
-  
-<summary>Google Colaboratory Version</summary>
-  
-- Step 1. Setup the Folder Structure as follows.
-  
-  The easiest way is to copy the entire [folder](https://drive.google.com/drive/folders/1x_rb6bu0riJuouAtK-xjFGDkCP7ZbhbL?usp=sharing), but be aware that there is a lot of weights in this folder.
-
-  ```
-  尋找花中君子 - 蘭花種類辨識及分類競賽 [TBrain]/
-  ├── datasets/
-      └── test/
-          └── 0/    # orchid_public_set, 40285
-          └── 1/    # orchid_private_set, 41425
-  ├── Reproduce the Best Result/
-      └── ViT/
-          └── output/
-              └── A1.bin, A2.bin, ID_4.bin, ID_5.bin, ID12.bin, ID27.bin    # ViT-B_16
-          └── Reproduce.ipynb
-  ```
-  
-- Step 2. Execute the Notebook named [Reproduce.ipynb](https://colab.research.google.com/drive/1K8_v-LuEhkpefGfIOdvRMUS7zCbOpzlF?usp=sharing).
-  
-  After the setup, ready to execute [Reproduce.ipynb](https://colab.research.google.com/drive/1K8_v-LuEhkpefGfIOdvRMUS7zCbOpzlF?usp=sharing), no additional steps are needed.
-  
-- Step 3. Submit the file named `submit_meanEnsemble_convert.csv`.
-  
-  After finishing [Reproduce.ipynb](https://colab.research.google.com/drive/1K8_v-LuEhkpefGfIOdvRMUS7zCbOpzlF?usp=sharing), we can get the file named `submit_meanEnsemble_convert.csv` which has the highest Macro-F$_1$ score.
-  
-</details>
+## 3. Reproduce the Best Result (public: 0.727275, private: 0.749105)
   
   
 <details>
