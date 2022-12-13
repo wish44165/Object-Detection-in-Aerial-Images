@@ -108,21 +108,16 @@ $ python detect_csv.py --weights runs/train/exp/weights/best.pt --source ../yolo
 
 
 
-## 6. GitHub Acknowledgement
-<details>
-
-<summary>Teammate</summary>  
-  
-- [Jia-Wei Liao](https://github.com/Jia-Wei-Liao/Orchid_Classification)
-  
-</details>
+## 3. GitHub Acknowledgement
+- [YOLOv5](https://github.com/ultralytics/yolov5)
+- [Data Augmentation For Object Detection](https://github.com/Paperspace/DataAugmentationForObjectDetection)
   
 
   
 
 
 
-## 7. Reference
+## 4. Reference
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
 
