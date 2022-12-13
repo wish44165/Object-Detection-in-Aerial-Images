@@ -50,13 +50,11 @@ $ pip install -r requirements.txt
   
 ## 2. Reproduce the Best Result (public: 0.727275, private: 0.749105)
 
-
+- [best.pt](https://drive.google.com/file/d/1Kn6FOV-Ho06Lz8ROc2nowd88Xkc6Gxnp/view?usp=sharing)
 
 <details>
  
 <summary>Folder Structure</summary>
-
-- [best.pt](https://drive.google.com/file/d/1Kn6FOV-Ho06Lz8ROc2nowd88Xkc6Gxnp/view?usp=sharing)
 
 ```bash
 Object-Detection-in-Aerial-Images/
@@ -90,7 +88,7 @@ $ python detect_csv.py --weights best.pt --source datasets/private --conf-thres 
 
 
 
-## Information
+## Citation
 ```
 @article{
     title  = {Object Detection in Aerial Images},
