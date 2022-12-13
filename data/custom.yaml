@@ -1,0 +1,8 @@
+train: /home/yuhsi/NYCU/UAV/yolov7/datasets/train
+test: /home/yuhsi/NYCU/UAV/yolov7/datasets/test
+val: /home/yuhsi/NYCU/UAV/yolov7/datasets/val
+#Classes
+nc: 4 # replace according to your number of classes
+#classes names
+#replace all class names list with your classes names
+names: ['car', 'hov', 'person', 'motorcycle']
