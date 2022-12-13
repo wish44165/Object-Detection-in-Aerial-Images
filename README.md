@@ -50,7 +50,8 @@ $ pip install -r requirements.txt
   
 ## 2. Reproduce the Best Result (public: 0.727275, private: 0.749105)
 
-- [best.pt](https://drive.google.com/file/d/1Kn6FOV-Ho06Lz8ROc2nowd88Xkc6Gxnp/view?usp=sharing)
+### [best.pt](https://drive.google.com/file/d/1Kn6FOV-Ho06Lz8ROc2nowd88Xkc6Gxnp/view?usp=sharing)
+### [submit.csv](https://github.com/TW-yuhsi/Object-Detection-in-Aerial-Images/blob/main/submit.csv)
 
 <details>
  
