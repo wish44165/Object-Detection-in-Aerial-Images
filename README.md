@@ -36,7 +36,7 @@ $ conda activate uav_yolov5
   
 ```bash
 $ git clone https://github.com/TW-yuhsi/Object-Detection-in-Aerial-Images
-$ cd yolov5/
+$ cd Object-Detection-in-Aerial-Images/
 $ pip install -r requirements.txt
 ```
 
