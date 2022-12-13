@@ -150,71 +150,12 @@ python test.py --model_type ViT-B_16 \
 ```
   
 </details>
-  
-
-<details>
-
-<summary>Useful commands in Terminal</summary>
-  
-```bash=
-unzip \*.zip    # Unzip all ZIP files
-ls -l | grep "^-" | wc -l    # Check the number of files
-ls -lR | grep "^-" | wc -l
-for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under terminal
-```
-  
-</details>
 
   
   
-
-## 3. Submitted Results
-  
-<table>
-  <tr>
-    <td>Filename</td>
-    <td>Upload time</td>
-    <td>Public score</td>
-    <td>Private score</td>
-  </tr>
-  <tr>
-    <td>submit_enEnsemble.csv</td>
-    <td>2022-06-06 04:57:23</td>
-    <td>0.909891</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>submit_meanEnsemble_convert.csv</td>
-    <td>2022-06-06 04:49:39</td>
-    <td>0.911492</td>
-    <td>0.809624582</td>
-  </tr>
-  <tr>
-    <td>submit_convert_swin_1.csv</td>
-    <td>2022-06-06 04:28:35</td>
-    <td>0.904925</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>submit_convert.csv</td>
-    <td>2022-06-06 03:29:10</td>
-    <td>0.901620</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>submit_meanEnsemble_convert.csv</td>
-    <td>2022-06-06 03:22:44</td>
-    <td>0.890142</td>
-    <td></td>
-  </tr>
-
-
-
-</table>
   
   
-  
-## 4. Reproduce the Best Result (public: 0.911492, private: 0.809624582)
+## 3. Reproduce the Best Result (public: 0.911492, private: 0.809624582)
   
 <details>
   
@@ -423,7 +364,7 @@ for i in `seq 0 218`; do ls ${i} -lR | grop "^-" | wc -l; done    # loop under t
 ```
 @article{
     title  = {Crop classification},
-    author = {Yu-Hsi Chen, Jia-Wei Liao, Kuok-Tong Ng},
+    author = {Yu-Hsi Chen},
     url    = {https://github.com/TW-yuhsi/ViT-Orchids-Classification},
     year   = {2022}
 }
