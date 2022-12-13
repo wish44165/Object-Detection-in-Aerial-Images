@@ -1,7 +1,7 @@
 # [無人機飛行載具之智慧計數競賽](https://tbrain.trendmicro.com.tw/Competitions/Details/25) (TEAM_2054)
 
 ## Overview
-Nowadays, with the rapid development of deep neural networks and the computing power of graphic cards, the performance of object detection has been greatly improved. Even though this field looks very mature, there are still some intractable problems, such as a lack of labeled data and a lack of understanding of species. Here, I use YOLOv5 as my object detection model. Using this method, my final scores are $0.727275$ and $0.749105$ in public and private leaderboards, respectively. In addition, my overall ranking is $11$th out of $236$ teams.
+Nowadays, with the rapid development of deep neural networks and the computing power of graphic cards, the performance of object detection has been greatly improved. Even though this field looks very mature, there are still some intractable problems, such as a lack of labeled data and a lack of understanding of species. Here, I use YOLOv5 as my object detection model. Using this method, my final scores are $0.727275$ and $0.749105$ in public and private leaderboards, respectively. In addition, my overall ranking is $11$ th out of $236$ teams.
 
 
 ## 1. Environment Setup
